@@ -27,14 +27,3 @@ module.exports = (config) => {
     },
   );
 };
-
-  /**
-   * 
-   */
-  // const index = config.plugins.findIndex(p => p instanceof AngularCompilerPlugin.AngularCompilerPlugin);
-  // const oldOptions = config.plugins[index]._options;
-  // oldOptions.directTemplateLoading = false;
-  // config.plugins.splice(index);
-  // config.plugins.push(new AngularCompilerPlugin.AngularCompilerPlugin(oldOptions));
-  // return config;
-
